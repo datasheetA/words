@@ -22,74 +22,74 @@ body                        |                 |                  |
 ----------------platform        |int            |来源标记             |2
 ----------------relationUserId  |int            |主键                 |
 ----------------status          |int            |状态                 |0
-		projectInfo             |object           |项目信息           |
-			relationId          |int              |主键               |
-			name                |string           |项目名称           |
-			phase               |string           |项目状态           |
-			progress            |string           |项目进展           |
-			activityType        |string           |项目活动类型       |
-			isKey               |int              |重点项目           |
-			position            |string           |项目区域           |
-			address             |string           |工程地点           |
-			type                |int              |项目类别           |
-			qualityCode         |string           |质量报监编号       |
-			securityCode        |string           |安全报监编号       |
-			beginDateContract   |timestamp        |合同开工日期       |
-			endDateContract     |timestamp        |合同竣工日期       |
-			beginDate           |timestamp        |开工日期           |
-			endDate             |timestamp        |竣工日期           |
-			instroduction       |string           |项目简介           |
-			builder             |string           |施工单位           |
-			surveyor            |string           |勘察单位           |
-			supervisor          |string           |监理单位           |
-			constuctor          |string           |建设单位           |
-			constuctorOrgCode   |string           |建设单位组织机构代码|
-			constuctorCode      |string           |建设单位编码        |
-			buildingSize        |decimal(12,1)    |建筑面积           |
-			buildingCost        |decimal(12,1)    |工程造价(万元)      |
-			contractNo          |strign           |合同备案编码        |
-			identifier          |string           |项目编码            |
-			winBiddingFile      |string           |中标通知书          |
-			contractFile        |string           |备案合同            |
-			manager             |string           |项目经理            |
-			managerPhone        |string           |联系电话            |
-			fixDays             |string           |定额工期            |
-			content             |string           |施工内容            |
-			managementAuditStatus|string          |监管审核状态        |
-			managementAuditMemo  |string          |审核备注            |
-			protectNo            |string          |安全施工措施备案号   |
-			license              |string          |施工许可证号         |
-			pictureFile          |string          |项目图片             |
-			code                 |string          |项目代码             |
-			state                |string          |状态                 |
-			superviseAgency      |string          |监督机构             |
-			builerCode           |string          |施工单位代码         |
-			supervisorCode       |string          |监理单位代码         |
-			desinger             |string          |设计单位名称         |
-			buildingFloor        |int             |建筑层数             |
-			structure            |string          |结构类型             |
-			isCreate             |int             |是否进行中           |
-			socialProvieCode     |string          |参保证明编号         |
-			socialProvieDate     |timestamp       |参保日期             |
-			injuryAuditStatus    |string          |工伤保险中心审核状态  |
-			injuryAuditMemo      |string          |工伤保险中心审核备注  |
-			source               |string          |数据来源             |
-			implementStatus      |string          |设备实施状态         |
-			implementMemo        |string          |设备实施备注         |
-			responsiblePerson    |string          |项目责任人           |
-			responsiblePersonPhone|string         |项目责任人联系电话    |
-		    buildProjectCode      |string         |建设项目编码         |
-		    placePoint            |string         |经纬度               |
-		    district              |int            |地区                 |945
-		    platform              |int            |平台                 |2
-		    user              |object          |人员信息             |
-		        code          |string          |用户编码             |
-		        phone         |string          |用户手机号           |
-		        name          |string          |用户名               | 
-		        password      |string          |密码                 |
-		        platform      |int             |来源标记             |2
-		        relationUserId|int             |主键                 |
-		        status        |int             |状态                 |0
+--------projectInfo             |object           |项目信息           |
+------------relationId          |int              |主键               |
+------------name                |string           |项目名称           |
+------------phase               |string           |项目状态           |
+------------progress            |string           |项目进展           |
+------------activityType        |string           |项目活动类型       |
+------------isKey               |int              |重点项目           |
+------------position            |string           |项目区域           |
+------------address             |string           |工程地点           |
+------------type                |int              |项目类别           |
+------------qualityCode         |string           |质量报监编号       |
+------------securityCode        |string           |安全报监编号       |
+------------beginDateContract   |timestamp        |合同开工日期       |
+------------endDateContract     |timestamp        |合同竣工日期       |
+------------beginDate           |timestamp        |开工日期           |
+------------endDate             |timestamp        |竣工日期           |
+------------instroduction       |string           |项目简介           |
+------------builder             |string           |施工单位           |
+------------surveyor            |string           |勘察单位           |
+------------supervisor          |string           |监理单位           |
+------------constuctor          |string           |建设单位           |
+------------constuctorOrgCode   |string           |建设单位组织机构代码|
+------------constuctorCode      |string           |建设单位编码        |
+------------buildingSize        |decimal(12,1)    |建筑面积           |
+------------buildingCost        |decimal(12,1)    |工程造价(万元)      |
+------------contractNo          |strign           |合同备案编码        |
+------------identifier          |string           |项目编码            |
+------------winBiddingFile      |string           |中标通知书          |
+------------contractFile        |string           |备案合同            |
+------------manager             |string           |项目经理            |
+------------managerPhone        |string           |联系电话            |
+------------fixDays             |string           |定额工期            |
+------------content             |string           |施工内容            |
+------------managementAuditStatus|string          |监管审核状态        |
+------------managementAuditMemo  |string          |审核备注            |
+------------protectNo            |string          |安全施工措施备案号   |
+------------license              |string          |施工许可证号         |
+------------pictureFile          |string          |项目图片             |
+------------code                 |string          |项目代码             |
+------------state                |string          |状态                 |
+------------superviseAgency      |string          |监督机构             |
+------------builerCode           |string          |施工单位代码         |
+------------supervisorCode       |string          |监理单位代码         |
+------------desinger             |string          |设计单位名称         |
+------------buildingFloor        |int             |建筑层数             |
+------------structure            |string          |结构类型             |
+------------isCreate             |int             |是否进行中           |
+------------socialProvieCode     |string          |参保证明编号         |
+------------socialProvieDate     |timestamp       |参保日期             |
+------------injuryAuditStatus    |string          |工伤保险中心审核状态  |
+------------injuryAuditMemo      |string          |工伤保险中心审核备注  |
+------------source               |string          |数据来源             |
+------------implementStatus      |string          |设备实施状态         |
+------------implementMemo        |string          |设备实施备注         |
+------------responsiblePerson    |string          |项目责任人           |
+------------responsiblePersonPhone|string         |项目责任人联系电话    |
+------------buildProjectCode      |string         |建设项目编码         |
+------------placePoint            |string         |经纬度               |
+------------district              |int            |地区                 |945
+------------platform              |int            |平台                 |2
+------------user              |object          |人员信息             |
+----------------code          |string          |用户编码             |
+----------------phone         |string          |用户手机号           |
+----------------name          |string          |用户名               | 
+----------------password      |string          |密码                 |
+----------------platform      |int             |来源标记             |2
+----------------relationUserId|int             |主键                 |
+----------------status        |int             |状态                 |0
 	
 #### 示例
 
@@ -211,66 +211,66 @@ body                        |                 |                  |
 参数名                       |参数类型         |字段说明           |约束条件
 ----------------------------|-----------------|------------------|------------------
 body                        |                 |                  |
-    operationFlag           |string           |状态标志           |updateExternalProject
-	projectInfo             |object           |项目信息           |
-		relationId          |int              |主键               |
-		name                |string           |项目名称           |
-		phase               |string           |项目状态           |
-		progress            |string           |项目进展           |
-		activityType        |string           |项目活动类型       |
-		isKey               |int              |重点项目           |
-		position            |string           |项目区域           |
-		address             |string           |工程地点           |
-		type                |int              |项目类别           |
-		qualityCode         |string           |质量报监编号       |
-		securityCode        |string           |安全报监编号       |
-		beginDateContract   |timestamp        |合同开工日期       |
-		endDateContract     |timestamp        |合同竣工日期       |
-		beginDate           |timestamp        |开工日期           |
-		endDate             |timestamp        |竣工日期           |
-		instroduction       |string           |项目简介           |
-		builder             |string           |施工单位           |
-		surveyor            |string           |勘察单位           |
-		supervisor          |string           |监理单位           |
-		constuctor          |string           |建设单位           |
-		constuctorOrgCode   |string           |建设单位组织机构代码|
-		constuctorCode      |string           |建设单位编码        |
-		buildingSize        |decimal(12,1)    |建筑面积           |
-		buildingCost        |decimal(12,1)    |工程造价(万元)      |
-		contractNo          |strign           |合同备案编码        |
-		identifier          |string           |项目编码            |
-		winBiddingFile      |string           |中标通知书          |
-		contractFile        |string           |备案合同            |
-		manager             |string           |项目经理            |
-		managerPhone        |string           |联系电话            |
-		fixDays             |string           |定额工期            |
-		content             |string           |施工内容            |
-		managementAuditStatus|string          |监管审核状态        |
-		managementAuditMemo  |string          |审核备注            |
-		protectNo            |string          |安全施工措施备案号   |
-		license              |string          |施工许可证号         |
-		pictureFile          |string          |项目图片             |
-		code                 |string          |项目代码             |
-		state                |string          |状态                 |
-		superviseAgency      |string          |监督机构             |
-		builerCode           |string          |施工单位代码         |
-		supervisorCode       |string          |监理单位代码         |
-		desinger             |string          |设计单位名称         |
-		buildingFloor        |int             |建筑层数             |
-		structure            |string          |结构类型             |
-		isCreate             |int             |是否进行中           |
-		socialProvieCode     |string          |参保证明编号         |
-		socialProvieDate     |timestamp       |参保日期             |
-		injuryAuditStatus    |string          |工伤保险中心审核状态  |
-		injuryAuditMemo      |string          |工伤保险中心审核备注  |
-		source               |string          |数据来源             |
-		implementStatus      |string          |设备实施状态         |
-		implementMemo        |string          |设备实施备注         |
-		responsiblePerson    |string          |项目责任人           |
-		responsiblePersonPhone|string         |项目责任人联系电话    |
-	    buildProjectCode      |string         |建设项目编码         |
-	    platform              |string         |来源                |2
-	    placePoint            |string         |经纬度              |
+----operationFlag           |string           |状态标志           |updateExternalProject
+----projectInfo             |object           |项目信息           |
+--------relationId          |int              |主键               |
+--------name                |string           |项目名称           |
+--------phase               |string           |项目状态           |
+--------progress            |string           |项目进展           |
+--------activityType        |string           |项目活动类型       |
+--------isKey               |int              |重点项目           |
+--------position            |string           |项目区域           |
+--------address             |string           |工程地点           |
+--------type                |int              |项目类别           |
+--------qualityCode         |string           |质量报监编号       |
+--------securityCode        |string           |安全报监编号       |
+--------beginDateContract   |timestamp        |合同开工日期       |
+--------endDateContract     |timestamp        |合同竣工日期       |
+--------beginDate           |timestamp        |开工日期           |
+--------endDate             |timestamp        |竣工日期           |
+--------instroduction       |string           |项目简介           |
+--------builder             |string           |施工单位           |
+--------surveyor            |string           |勘察单位           |
+--------supervisor          |string           |监理单位           |
+--------constuctor          |string           |建设单位           |
+--------constuctorOrgCode   |string           |建设单位组织机构代码|
+--------constuctorCode      |string           |建设单位编码        |
+--------buildingSize        |decimal(12,1)    |建筑面积           |
+--------buildingCost        |decimal(12,1)    |工程造价(万元)      |
+--------contractNo          |strign           |合同备案编码        |
+--------identifier          |string           |项目编码            |
+--------winBiddingFile      |string           |中标通知书          |
+--------contractFile        |string           |备案合同            |
+--------manager             |string           |项目经理            |
+--------managerPhone        |string           |联系电话            |
+--------fixDays             |string           |定额工期            |
+--------content             |string           |施工内容            |
+--------managementAuditStatus|string          |监管审核状态        |
+--------managementAuditMemo  |string          |审核备注            |
+--------protectNo            |string          |安全施工措施备案号   |
+--------license              |string          |施工许可证号         |
+--------pictureFile          |string          |项目图片             |
+--------code                 |string          |项目代码             |
+--------state                |string          |状态                 |
+--------superviseAgency      |string          |监督机构             |
+--------builerCode           |string          |施工单位代码         |
+--------supervisorCode       |string          |监理单位代码         |
+--------desinger             |string          |设计单位名称         |
+--------buildingFloor        |int             |建筑层数             |
+--------structure            |string          |结构类型             |
+--------isCreate             |int             |是否进行中           |
+--------socialProvieCode     |string          |参保证明编号         |
+--------socialProvieDate     |timestamp       |参保日期             |
+--------injuryAuditStatus    |string          |工伤保险中心审核状态  |
+--------injuryAuditMemo      |string          |工伤保险中心审核备注  |
+--------source               |string          |数据来源             |
+--------implementStatus      |string          |设备实施状态         |
+--------implementMemo        |string          |设备实施备注         |
+--------responsiblePerson    |string          |项目责任人           |
+--------responsiblePersonPhone|string         |项目责任人联系电话    |
+--------buildProjectCode      |string         |建设项目编码         |
+--------platform              |string         |来源                |2
+--------placePoint            |string         |经纬度              |
 	
 #### 示例
 
@@ -365,12 +365,12 @@ body                        |                 |                  |
 参数名                       |参数类型       |字段说明           |约束条件
 ----------------------------|---------------|------------------|------------------
 body                        |               |                  |
-    operationFlag           |string         |状态标志           |updateExternalOrg
-    org                     |object         |部门信息           |
-        relationOrgId       |string         |主键               |
-        name                |string         |名称               |
-        instroduction       |string         |企业描述           |
-        platform            |string         |来源               |2
+----operationFlag           |string         |状态标志           |updateExternalOrg
+----org                     |object         |部门信息           |
+--------relationOrgId       |string         |主键               |
+--------name                |string         |名称               |
+--------instroduction       |string         |企业描述           |
+--------platform            |string         |来源               |2
 #### 示例
 
 ```json  
@@ -410,14 +410,14 @@ body                        |               |                  |
    参数名           |参数类型        |字段说明              |约束条件
 --------------------|---------------|---------------------|------------------
 body                |               |                     |
-  operationFlag     |string         |状态标志             |updateExternalUser
-  user              |object         |人员信息             |
-    code            |string         |用户编码             |
-    phone           |string         |用户手机号           |
-    name            |string         |用户名               | 
-    password        |string         |密码                 |
-    relationUserId  |int            |主键                 |
-    platform        |string         |来源                 |2
+----operationFlag     |string         |状态标志             |updateExternalUser
+----user              |object         |人员信息             |
+--------code            |string         |用户编码             |
+--------phone           |string         |用户手机号           |
+--------name            |string         |用户名               | 
+--------password        |string         |密码                 |
+--------relationUserId  |int            |主键                 |
+--------platform        |string         |来源                 |2
 
 ```json  
 {
@@ -458,10 +458,10 @@ body                |               |                     |
    参数名           |参数类型        |字段说明           |约束条件
 --------------------|---------------|------------------|------------------
 body                |               |                    |
-  operationFlag     |string         |状态标志             |deleteExternalProject
-  project           |array          |人员信息             |
-    relationIds     |string         |主键                 |
-     platform       |string         |来源                 |2
+----operationFlag     |string         |状态标志             |deleteExternalProject
+----project           |array          |人员信息             |
+--------relationIds     |string         |主键                 |
+--------platform       |string         |来源                 |2
 ```json  
 {
   "body":{
@@ -496,10 +496,10 @@ body                |               |                    |
    参数名           |参数类型        |字段说明           |约束条件
 --------------------|---------------|------------------|------------------
 body                |               |                   |
- operationFlag     |string         |状态标志             |deleteExternalOrg
-  org              |array          |人员信息             |
-    relationOrgIds |string         |主键                 |
-    platform       |string         |来源                 |2
+----operationFlag     |string         |状态标志             |deleteExternalOrg
+----org              |array          |人员信息             |
+--------relationOrgIds |string         |主键                 |
+--------platform       |string         |来源                 |2
 ```json  
 {
   "body":{
@@ -534,10 +534,10 @@ body                |               |                   |
    参数名           |参数类型        |字段说明           |约束条件
 --------------------|---------------|------------------|------------------
 body                |               |                     |
- operationFlag      |string         |状态标志             |deleteExternalUser
-  user              |array          |人员信息             |
-    relationUserIds |string         |主键                 |
-    platform        |string         |来源                 |2
+----operationFlag      |string         |状态标志             |deleteExternalUser
+----user              |array          |人员信息             |
+--------relationUserIds |string         |主键                 |
+--------platform        |string         |来源                 |2
 ```json  
 {
   "body":{
@@ -574,45 +574,45 @@ body                |               |                     |
    参数名                    |参数类型        |字段说明           |约束条件
 ----------------------------|--------------- |------------------|------------------
 body                        |                 |                  |
-  operationFlag             |string           |状态标志           |insertExternalWorker/insertExternalAdministrator
-     worker                 |object           |人员信息           |
-        relationWorkerId    |int              |主键              |
-		name                |string           |人员名称           |
-		enterStatus         |string           |进场状态           |
-		enterTime           |timestamp        |进场时间           |
-		peopleType          |int              |人员类别           |
-		documentType        |int              |证件类型           |
-		identityCode        |string           |身份证号           |
-		birthDate           |string           |生日               |
-		sex                 |int              |性别              |
-		nation              |string           |籍贯              |
-		telephoneNumber     |string           |手机号码          |
-		politicalStatus     |string           |政治面貌          |
-		homeAddress         |string           |家庭住址          |
-		tempAddre           |string           |暂住地址           |
-		isAdd               |int              |是否加入公会       |
-		addTime             |timestamp        |加入公会时间       |
-		educationLevel      |string           |文化程度           |
-		isSickness          |int              |是否有重大病史      |
-		emergencyPeople     |string           |紧急联系人姓名      |
-		emergencyTel        |string           |紧急联系人电话      |
-		workStartTime       |timestamp        |开始工作时间        |
-		accommodationType   |string           |工人住宿类型        |
-		relationProjectId   |int              |所属总包项目        |
-		contractorType      |int              |总包/分包           |
-		subProjectId        |int              |分包项目            |
-		relationWorkId      |int              |工种id              |
-		relationTeamId      |int              |班组id              |
-		platform            |string           |来源                |2
-		projectMasterWorkType  |object           |                    |
-		      platform      |int              |来源标记             |2
-	          name          |string           |名称                |
-	          relationWorkId|int              |主键                |
-	    projectMasterTeam   |object           |                    |
-		      platform      |int              |来源标记             |2
-	          name          |string           |名称                |
-	          relationProjectId|int           |主键                |
-	          relationTeamId|int              |主键                |
+----operationFlag             |string           |状态标志           |insertExternalWorker/insertExternalAdministrator
+----worker                 |object           |人员信息           |
+--------relationWorkerId    |int              |主键              |
+--------name                |string           |人员名称           |
+--------enterStatus         |string           |进场状态           |
+--------enterTime           |timestamp        |进场时间           |
+--------peopleType          |int              |人员类别           |
+--------documentType        |int              |证件类型           |
+--------identityCode        |string           |身份证号           |
+--------birthDate           |string           |生日               |
+--------sex                 |int              |性别              |
+--------nation              |string           |籍贯              |
+--------telephoneNumber     |string           |手机号码          |
+--------politicalStatus     |string           |政治面貌          |
+--------homeAddress         |string           |家庭住址          |
+--------tempAddre           |string           |暂住地址           |
+--------isAdd               |int              |是否加入公会       |
+--------addTime             |timestamp        |加入公会时间       |
+--------educationLevel      |string           |文化程度           |
+--------isSickness          |int              |是否有重大病史      |
+--------emergencyPeople     |string           |紧急联系人姓名      |
+--------emergencyTel        |string           |紧急联系人电话      |
+--------workStartTime       |timestamp        |开始工作时间        |
+--------accommodationType   |string           |工人住宿类型        |
+--------relationProjectId   |int              |所属总包项目        |
+--------contractorType      |int              |总包/分包           |
+--------subProjectId        |int              |分包项目            |
+--------relationWorkId      |int              |工种id              |
+--------relationTeamId      |int              |班组id              |
+--------platform            |string           |来源                |2
+--------projectMasterWorkType  |object           |                    |
+------------platform      |int              |来源标记             |2
+------------name          |string           |名称                |
+------------relationWorkId|int              |主键                |
+--------projectMasterTeam   |object           |                    |
+------------platform      |int              |来源标记             |2
+------------name          |string           |名称                |
+------------relationProjectId|int           |主键                |
+------------relationTeamId|int              |主键                |
 #### 示例    
 ```json  
 {
@@ -687,46 +687,46 @@ body                        |                 |                  |
    参数名                    |参数类型        |字段说明           |约束条件
 ----------------------------|--------------- |------------------|------------------
 body                        |                |                  |
-  operationFlag             |string          |状态标志           |updateExternalWorker/updateExternalAdministrator
-    worker                  |object          |人员信息           |
-        relationWorkerId    |int              |主键              |
-		name                |string           |人员名称           |
-		enterStatus         |string           |进场状态           |
-		enterTime           |timestamp        |进场时间           |
-		peopleType          |int              |人员类别           |
-		documentType        |int              |证件类型           |
-		identityCode        |string           |身份证号           |
-		birthDate           |string           |生日               |
-		sex                 |int              |性别               |
-		nation              |string           |籍贯              |
-		telephoneNumber     |string           |手机号码          |
-		politicalStatus     |string           |政治面貌          |
-		homeAddress         |string           |家庭住址          |
-		tempAddre           |string           |暂住地址           |
-		isAdd               |int              |是否加入公会       |
-		addTime             |timestamp        |加入公会时间       |
-		educationLevel      |string           |文化程度           |
-		isSickness          |int              |是否有重大病史      |
-		emergencyPeople     |string           |紧急联系人姓名      |
-		emergencyTel        |string           |紧急联系人电话      |
-		workStartTime       |timestamp        |开始工作时间        |
-		accommodationType   |string           |工人住宿类型        |
-		projectRelationId   |string           |所属总包项目        |
-		contractorType      |int              |总包/分包           |
-		subProjectId        |int              |分包项目            |
-		platform            |string           |来源                |2
-		relationWorkId      |int              |工种id              |
-		relationTeamId      |int              |班组id              |
-		projectMasterWorkType  |object           |                    |
-		      platform      |int              |来源标记             |2
-	          name          |string           |名称                |
-	          relationWorkId|int              |主键                |
-	    projectMasterTeam   |object           |                    |
-		      platform      |int              |来源标记             |2
-	          name          |string           |名称                |
-	          relationProjectId|int           |主键                |
-	          relationTeamId|int              |主键                |
-	          type          |int              |区分 普通岗位1 管理岗位2 |
+----operationFlag             |string          |状态标志           |updateExternalWorker/updateExternalAdministrator
+----worker                  |object          |人员信息           |
+--------relationWorkerId    |int              |主键              |
+--------name                |string           |人员名称           |
+--------enterStatus         |string           |进场状态           |
+--------enterTime           |timestamp        |进场时间           |
+--------peopleType          |int              |人员类别           |
+--------documentType        |int              |证件类型           |
+--------identityCode        |string           |身份证号           |
+--------birthDate           |string           |生日               |
+--------sex                 |int              |性别               |
+--------nation              |string           |籍贯              |
+--------telephoneNumber     |string           |手机号码          |
+--------politicalStatus     |string           |政治面貌          |
+--------homeAddress         |string           |家庭住址          |
+--------tempAddre           |string           |暂住地址           |
+--------isAdd               |int              |是否加入公会       |
+--------addTime             |timestamp        |加入公会时间       |
+--------educationLevel      |string           |文化程度           |
+--------isSickness          |int              |是否有重大病史      |
+--------emergencyPeople     |string           |紧急联系人姓名      |
+--------emergencyTel        |string           |紧急联系人电话      |
+--------workStartTime       |timestamp        |开始工作时间        |
+--------accommodationType   |string           |工人住宿类型        |
+--------projectRelationId   |string           |所属总包项目        |
+--------contractorType      |int              |总包/分包           |
+--------subProjectId        |int              |分包项目            |
+--------platform            |string           |来源                |2
+--------relationWorkId      |int              |工种id              |
+--------relationTeamId      |int              |班组id              |
+--------projectMasterWorkType  |object           |                    |
+------------platform      |int              |来源标记             |2
+------------name          |string           |名称                |
+------------relationWorkId|int              |主键                |
+--------projectMasterTeam   |object           |                    |
+------------platform      |int              |来源标记             |2
+------------name          |string           |名称                |
+------------relationProjectId|int           |主键                |
+------------relationTeamId|int              |主键                |
+------------type          |int              |区分 普通岗位1 管理岗位2 |
 
 
 #### 示例    
@@ -804,13 +804,13 @@ body                        |                |                  |
    参数名                    |参数类型        |字段说明           |约束条件
 ----------------------------|--------------- |------------------|------------------
 body                        |                 |                  |
-	    record              |array            |                    |
-	          operationFlag |string           |状态标志           |insertRecordExternalWorker/insertRecordExternalAdministrator
-		      platform      |int              |来源标记             |2
-	          userProjectId |int              |用户项目ID           |
-	          relationProjectId|int           |主键                 |
-	          enterStatus   |int              |进场状态             |
-	          enterTime     |timestamp        |时间                |
+----record              |array            |                    |
+--------operationFlag |string           |状态标志           |insertRecordExternalWorker/insertRecordExternalAdministrator
+--------platform      |int              |来源标记             |2
+--------userProjectId |int              |用户项目ID           |
+--------relationProjectId|int           |主键                 |
+--------enterStatus   |int              |进场状态             |
+--------enterTime     |timestamp        |时间                |
    
 #### 示例    
 ```json  
@@ -836,11 +836,11 @@ body                        |                 |                  |
    参数名                    |参数类型        |字段说明           |约束条件
 ----------------------------|--------------- |------------------|------------------
 body                        |                |                  |
-  worker                    |array           |人员信息           |
-        operationFlag       |string          |状态标志           |deleteExternalWorker/deleteExternalAdministrator
-        relationProjectId   |int              |主键              |
-        relationWorkerIds   |string           |主键              |
-		platform            |string           |来源              |2
+----worker                    |array           |人员信息           |
+--------operationFlag       |string          |状态标志           |deleteExternalWorker/deleteExternalAdministrator
+--------relationProjectId   |int              |主键              |
+--------relationWorkerIds   |string           |主键              |
+--------platform            |string           |来源              |2
 
 #### 示例    
 ```json  
@@ -878,11 +878,11 @@ body                        |                |                  |
    参数名                    |参数类型        |字段说明           |约束条件
 ----------------------------|-----------------|------------------|------------------
 body                        |                 |                     |
-  operationFlag             |string           |状态标志           |updateExternalTeam
-  projectMasterTeam         |object           |                  |
-		      platform      |int              |来源标记           |2
-	          name          |string           |名称              |
-	          relationTeamId|int              |主键              |
+----operationFlag             |string           |状态标志           |updateExternalTeam
+----projectMasterTeam         |object           |                  |
+--------platform      |int              |来源标记           |2
+--------name          |string           |名称              |
+--------relationTeamId|int              |主键              |
 ```json  
 {
   "body":{
@@ -919,11 +919,11 @@ body                        |                 |                     |
    参数名                    |参数类型        |字段说明           |约束条件
 ----------------------------|-----------------|------------------|------------------
 body                        |                 |                  |
-  operationFlag             |string           |状态标志           |updateExternalWorkType
-  projectMasterWorkType     |object           |                  |
-		      platform      |int              |来源标记           |2
-	          name          |string           |名称               |
-	          relationWorkId|int              |主键               |
+----operationFlag             |string           |状态标志           |updateExternalWorkType
+----projectMasterWorkType     |object           |                  |
+--------platform      |int              |来源标记           |2
+--------name          |string           |名称               |
+--------relationWorkId|int              |主键               |
 ```json  
 {
   "body":{
@@ -960,13 +960,13 @@ body                        |                 |                  |
    参数名                    |参数类型        |字段说明           |约束条件
 ----------------------------|--------------- |------------------|----------------
 body                        |                 |                  |
-  operationFlag             |string           |状态标志          |insertExternalAttendance
-  attendance                |object           |考勤机            |
-        relationDeviceId    |int              |主键              |
-        relationProjectId   |int              |项目id            |
-		deviceNo            |string           |设备编号          |
-		manufactor          |string           |厂家              |
-		platform            |string           |来源              |2
+----operationFlag             |string           |状态标志          |insertExternalAttendance
+----attendance                |object           |考勤机            |
+--------relationDeviceId    |int              |主键              |
+--------relationProjectId   |int              |项目id            |
+--------deviceNo            |string           |设备编号          |
+--------manufactor          |string           |厂家              |
+--------platform            |string           |来源              |2
 
 #### 示例    
 ```json  
@@ -1007,13 +1007,13 @@ body                        |                 |                  |
    参数名                    |参数类型        |字段说明           |约束条件
 ----------------------------|--------------- |------------------|----------------
 body                        |                |                  |
-  operationFlag             |string           |状态标志          |updateExternalAttendance
-  attendance                |object           |考勤机            |
-        relationDeviceId    |int              |主键              |
-        relationProjectId   |int              |项目id            |
-        deviceNo            |string           |设备编号          |
-		manufactor          |string           |厂家              |
-		platform            |string           |来源              |2
+----operationFlag             |string           |状态标志          |updateExternalAttendance
+----attendance                |object           |考勤机            |
+--------relationDeviceId    |int              |主键              |
+--------relationProjectId   |int              |项目id            |
+--------deviceNo            |string           |设备编号          |
+--------manufactor          |string           |厂家              |
+--------platform            |string           |来源              |2
 
 #### 示例    
 ```json  
@@ -1054,11 +1054,11 @@ body                        |                |                  |
    参数名                    |参数类型        |字段说明           |约束条件
 ----------------------------|--------------- |------------------|----------------
 body                        |                 |                 |
-  operationFlag             |string           |状态标志          |deleteExternalAttendance
-  attendance                |array            |考勤机            |
-        relationDeviceIds   |string           |主键              |
-        relationProjectId   |int              |项目id            |
-		platform            |string           |来源              |2
+----operationFlag             |string           |状态标志          |deleteExternalAttendance
+----attendance                |array            |考勤机            |
+--------relationDeviceIds   |string           |主键              |
+--------relationProjectId   |int              |项目id            |
+--------platform            |string           |来源              |2
 
 #### 示例    
 ```json  
@@ -1096,18 +1096,18 @@ body                        |                 |                 |
    参数名                    |参数类型        |字段说明           |约束条件
 ----------------------------|--------------- |------------------|----------------
 body                        |                |                  |
-  operationFlag             |string           |状态标志          |insertExternalAttendanceDetail
-  record                    |object           |考勤履历           |
-        relationProjectId   |string           |项目id             |
-        deviceNo            |string           |设备id             |
-        relationUserId      |string           |设备id             |
-        name                |string           |姓名              |
-		identityCode        |string           |身份证编号        |
-		nativePlace         |string           |籍贯              |
-		workType            |string           |工种              |
-		team                |string           |班组              |
-	    attendanceTime      |timestamp        |考勤时间          |
-		platform            |string           |来源              |2
+----operationFlag             |string           |状态标志          |insertExternalAttendanceDetail
+----record                    |object           |考勤履历           |
+--------relationProjectId   |string           |项目id             |
+--------deviceNo            |string           |设备id             |
+--------relationUserId      |string           |设备id             |
+--------name                |string           |姓名              |
+--------identityCode        |string           |身份证编号        |
+--------nativePlace         |string           |籍贯              |
+--------workType            |string           |工种              |
+--------team                |string           |班组              |
+--------attendanceTime      |timestamp        |考勤时间          |
+--------platform            |string           |来源              |2
 
 #### 示例    
 ```json  
@@ -1180,6 +1180,6 @@ body                        |                |                  |
 ### URL:/device/getDeviceResultToPM.whtml
 ### Params:{"code":1/0,"no":100}
 
-说明：code :1 成功 0 失败
-      no:调第一个接口返回的最大id
+### 说明：code :1 成功 0 失败
+##### no:调第一个接口返回的最大id
 
