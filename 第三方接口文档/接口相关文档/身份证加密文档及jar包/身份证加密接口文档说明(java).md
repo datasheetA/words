@@ -14,7 +14,7 @@ v1.0
 参数 | 参数类型 | 描述|约束条件  
  ----|------|------ |------     
  userId | string| 身份证 |*
-### 2 返回类型 :String
+#### 2 返回类型 :String
 ### 4.示例：
   String decontent = Encryption.encryptAES("320681199006121227");    
 decontent  : 2ArG+Q3OpfHwDeaIIG4SkQ4xnMElPMYthiNko0N2TRU= 
