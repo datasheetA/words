@@ -5,23 +5,23 @@
 参数名                       |参数类型         |字段说明           |约束条件
 ----------------------------|-----------------|------------------|------------------
 body                        |                 |                  |     
-		operationFlag           |string         |状态标志             |insertExternalProject
-	projects                |array          |                    |     
-	    org                     |object         |部门信息             |
-	        name                |string         |名称                 |
-	        level               |int            |组织等级             |1
-	        parentId            |int            |父id                 |0 
-	        instroduction       |string         |企业描述             |
-	        platform            |int            |来源标记             |2
-	        relationOrgId       |int            |主键                 |
-		    user                |object          |人员信息             |
-		        code            |string         |用户编码             |
-		        phone           |string         |用户手机号           |
-		        name            |string         |用户名               | 
-		        password        |string         |密码                 |
-		        platform        |int            |来源标记             |2
-		        relationUserId  |int            |主键                 |
-		        status          |int            |状态                 |0
+----operationFlag           |string         |状态标志             |insertExternalProject
+----projects                |array          |                    |     
+--------org                     |object         |部门信息             |
+------------name                |string         |名称                 |
+------------level               |int            |组织等级             |1
+------------parentId            |int            |父id                 |0 
+------------instroduction       |string         |企业描述             |
+------------platform            |int            |来源标记             |2
+------------relationOrgId       |int            |主键                 |
+------------user                |object          |人员信息             |
+----------------code            |string         |用户编码             |
+----------------phone           |string         |用户手机号           |
+----------------name            |string         |用户名               | 
+----------------password        |string         |密码                 |
+----------------platform        |int            |来源标记             |2
+----------------relationUserId  |int            |主键                 |
+----------------status          |int            |状态                 |0
 		projectInfo             |object           |项目信息           |
 			relationId          |int              |主键               |
 			name                |string           |项目名称           |
