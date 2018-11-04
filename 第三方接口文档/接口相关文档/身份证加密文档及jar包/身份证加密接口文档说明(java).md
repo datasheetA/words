@@ -6,9 +6,9 @@
 ##版本
 v1.0
 ##接口使用说明 
-1．将我们提供的 jar 包(Encryption)导入工程中 
-2．工程中 import com.saier.erp.page.utils.Encryption; 
-3．方法调用 
+### 1．将我们提供的 jar 包(Encryption)导入工程中 
+### 2．工程中 import com.saier.erp.page.utils.Encryption; 
+### 3．方法调用 
 
 ### 1 方法名称 : encryptAES
 参数 | 参数类型 | 描述|约束条件  
