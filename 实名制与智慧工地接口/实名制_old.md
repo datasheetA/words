@@ -192,9 +192,9 @@ body                        |                 |                  |
 #### Params
         参数名       |参数类型         |字段说明           |约束条件
 --------------------|-----------------|------------------|------------------
-        code        |string           |200               |
-        message     |string           |信息              |
-        success     |boolean          |true              | 
+code        |string           |200               |
+message     |string           |信息              |
+success     |boolean          |true              | 
 
 #### 示例        
 ```json  
